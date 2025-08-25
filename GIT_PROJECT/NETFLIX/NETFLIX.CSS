@@ -12,7 +12,7 @@ body {
 }
 
 .main {
-    background-image: url('/YOUTUBE/PROJECT/NETFLIX/image/backgroung-image-netfilx.jpg');
+    background-image: url('/GIT_PROJECT/NETFLIX/image/backgroung-image-netfilx.jpg');
     background-position: center center;
     background-size: max(1200px, 100vw);
     height: 95vh;
@@ -22,7 +22,7 @@ body {
 .main .box {
     height: 95vh;
     width: 100%;
-    opacity: 0.69;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     background-color: black;
