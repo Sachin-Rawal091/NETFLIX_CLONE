@@ -1,0 +1,207 @@
+    *{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    height: 110vh;
+    background-image: url('/YOUTUBE/PROJECT/NETFLIX/image/backgroung-image-netfilx.jpg');
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.455);
+    height: 110vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 9rem;
+
+}
+.navbar img{
+    position: relative;
+    height: 3.5rem;
+    width: 9.2rem;
+    top: 1rem;
+ 
+}
+.sign_upShavdow{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.67);
+    top: 2.2rem;
+    color: white;
+    right: 20rem;
+    height: 40rem;
+    width: 30rem;
+    align-self: center;
+    border-radius: 0.2rem;
+}
+
+.contaier-sign_up{
+    padding: 2rem 4rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+}
+.contaier-sign_up  span{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-family: sans-serif;
+}
+
+.contaier-sign_up a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.input-space{
+    background-color: rgba(12, 12, 12, 0.559);
+    color: white;
+    height: 7.3vh;
+    width: 23vw;
+    border: 2px solid rgba(150, 148, 148, 0.279);
+    border-radius: 0.3rem;
+} 
+
+.btn-red{
+    border-radius: 0.3rem;
+    height: 6vh;
+    width: 23vw;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: large;
+    font-family:sans-serif;
+}
+.btn-grey{
+    border: none;
+    border-radius: 0.3rem;
+    height: 6vh;
+    width: 23vw;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.4);
+    font-family: sans-serif;
+    font-size: large;
+}
+
+#label{
+
+    display: flex;
+    gap: 0.6rem;
+    font-size: 16px;
+}
+
+/* -------------------------------------- */
+
+.Remember{
+    accent-color: white;
+    height: 1rem;
+    width: 1rem;
+}
+
+#label span{
+    color: white;
+}
+
+.section_bottom span{
+    font-weight: 600;
+}
+.section_bottom a{
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.section_bottom a:hover{
+    
+    text-decoration: underline;
+}
+
+.learn_more {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 13px;
+}
+.learn_more span{
+    text-align: left;
+}
+.learn_more a{
+    text-align: left;
+    color:rgb(68, 142, 244);
+    font-size: 12px;
+}
+   
+/* ---------------------------------------------------------------------------- */
+
+.upper-footer{
+    padding: 70px 180px;
+    background-color:#161616 ;
+}
+
+.footer{
+    display: flex;
+    background-color:#161616 ;
+    width: 100%;
+    height: 11rem;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer > div{
+    color:#ffffffb3;
+    
+}
+.footer-a{
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 15px;
+}
+.footer-a > a{
+    color:#ffffffb3;
+    font-size: 14px;
+
+}
+.button{
+    display: flex;
+    color: white;
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255,0.4);
+    border-radius: 4px;
+    
+}
+.button  img{
+    height: 18px;
+    margin: 0;
+    margin-right: 2px;
+}
+
+.button > span{
+    padding: 5px;
+}
+.button >select{
+    /* padding: 5.5px; */
+    display: flex;
+    width: 5.5rem;
+    height: 1.9rem;
+    background-color:#161616 ;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    justify-content: space-evenly;
+    margin: 0;
+
+}
+.button :active{
+    border: none;
+}
+
+
