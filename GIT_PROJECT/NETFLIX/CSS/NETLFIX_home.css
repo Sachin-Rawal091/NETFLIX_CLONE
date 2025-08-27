@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #221f1f;
+}
+.content-contain{
+    display: flex;
+}
+
+.side-bar{
+    background-color: wheat;
+    width: 6%;
+    height: 90vh;
+}
+.main-content{
+    background-image: url("/GIT_PROJECT/NETFLIX/image/backgroung-image-netfilx.jpg");
+    height: 60vh;
+    width: 100%;
+}
