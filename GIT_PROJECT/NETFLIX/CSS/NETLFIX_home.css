@@ -80,20 +80,31 @@ body{
     display: flex;
 }
 .heading{
+    
     position: absolute;
     color: white;
     margin-left:5px 5px ;
 }
 
 .small-content-container{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1MrmUbcx1EI2k0TYZr6B_6AGIb4uMneqxHqqSEK7Vwq9T5mE&s');
+
+    /* background-image: url(''); */
     height: 80%;
     width: 11.3vw;
-    margin: 40px 3px 2px 3px;
+    margin: 40px 3px 2px 5px;
+    
 
 }
-.logo img{
+.small-content-container > img{
+    height: 100%;
+    width: 11vw;
+}
+
+.logo > img{
+    position: relative;
+    top: -230px;
     height: 25px;
     width: 25px;
     padding: 10px;
 }
+  
