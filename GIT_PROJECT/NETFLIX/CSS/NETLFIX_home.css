@@ -1,49 +1,57 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #0a0a0a;
 }
-.content-contain{
+
+.content-contain {
     display: flex;
 }
 
-.side-bar{
+.side-bar {
     position: fixed;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* padding: 100px 0px; */
     align-items: center;
-    background-color:  #181616;
+    background-color: #0d0c0c;
     width: 6.5%;
     height: 100vh;
 
 }
-.side-bar a{
+
+.side-bar a {
     position: relative;
     z-index: 1;
     color: white;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    padding-bottom: 8px ;
+    padding-bottom: 8px;
     margin: 30px 0px;
 
 }
-.side-bar span{
+
+.side-bar span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
-.bottomline{
+
+.bottomline {
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
+
 .bottomline::after {
     position: absolute;
     content: "";
@@ -52,59 +60,104 @@ body{
     border: 1px solid red;
     border-radius: 2px;
     background-color: red;
-    bottom: 0px; 
+    bottom: 0px;
     left: -1px;
     opacity: 0;
     transition: all 0.5s ease;
-    
+
 }
 
-.bottomline:hover::after{
+.bottomline:hover::after {
     opacity: 1;
 }
 
 
 
-.main-content{
+.main-content {
+    position: relative;
     background-image: url("/GIT_PROJECT/NETFLIX/image/backgroung-image-netfilx.jpg");
-    height: 60vh;
-    width: 100%;
+    height: 64vh;
+    width: 93.50%;
+    left: 6.5%;
 }
-.top-content{
+
+.main-content-text {
+    position: relative;
+    /* display: flex; */
+    height: 30px;
+    width: 30px;
+    top: 100px;
+    left: 50px;
+    gap: 3px;
+    color: white;
+}
+
+.black-shadow{
+    background-color:rgba(0,0,0,0.5);
+    height: 64vh;
+    width: 100%;
+    
+}
+.img-tag {
+    display: flex;
+}
+
+.main-content-text img {
+    height: 25px;
+    width: 30px;
+}
+
+.main-content-text h3 {
+    font-size: 18px;
+    /* font-family: 'Roboto mono'; */
+}
+
+.big-heading{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    
+}
+.big-heading h1{
+    align-self: center;
+}
+
+.top-content {
     margin-top: 4px;
     position: absolute;
-    height:35%;
+    height: 35%;
     width: 93.29vw;
     left: 6.5%;
     /* border: 1px solid red; */
     display: flex;
 }
-.heading{
-    
+
+.heading {
+
     position: absolute;
     color: white;
-    margin-left:5px 5px ;
+    margin-left: 5px 5px;
 }
 
-.small-content-container{
+.small-content-container {
 
-    /* background-image: url(''); */
     height: 80%;
     width: 11.3vw;
     margin: 40px 3px 2px 5px;
-    
+
 
 }
-.small-content-container > img{
+
+.small-content-container>img {
     height: 100%;
     width: 11vw;
 }
 
-.logo > img{
+.logo>img {
     position: relative;
     top: -230px;
     height: 25px;
     width: 25px;
     padding: 10px;
 }
-  
